@@ -1,0 +1,12 @@
+D:\Proyectos\VisualBasic\EcuacionCuadraticaResolver\EcuacionCuadratica\obj\Debug\EcuacionCuadratica.vbproj.AssemblyReference.cache
+D:\Proyectos\VisualBasic\EcuacionCuadraticaResolver\EcuacionCuadratica\obj\Debug\EcuacionCuadratica.FRM1CUADRATICA.resources
+D:\Proyectos\VisualBasic\EcuacionCuadraticaResolver\EcuacionCuadratica\obj\Debug\EcuacionCuadratica.Resources.resources
+D:\Proyectos\VisualBasic\EcuacionCuadraticaResolver\EcuacionCuadratica\obj\Debug\EcuacionCuadratica.vbproj.GenerateResource.cache
+D:\Proyectos\VisualBasic\EcuacionCuadraticaResolver\EcuacionCuadratica\obj\Debug\EcuacionCuadratica.vbproj.CoreCompileInputs.cache
+D:\Proyectos\VisualBasic\EcuacionCuadraticaResolver\EcuacionCuadratica\bin\Debug\EcuacionCuadratica.exe.config
+D:\Proyectos\VisualBasic\EcuacionCuadraticaResolver\EcuacionCuadratica\bin\Debug\EcuacionCuadratica.exe
+D:\Proyectos\VisualBasic\EcuacionCuadraticaResolver\EcuacionCuadratica\bin\Debug\EcuacionCuadratica.pdb
+D:\Proyectos\VisualBasic\EcuacionCuadraticaResolver\EcuacionCuadratica\bin\Debug\EcuacionCuadratica.xml
+D:\Proyectos\VisualBasic\EcuacionCuadraticaResolver\EcuacionCuadratica\obj\Debug\EcuacionCuadratica.exe
+D:\Proyectos\VisualBasic\EcuacionCuadraticaResolver\EcuacionCuadratica\obj\Debug\EcuacionCuadratica.xml
+D:\Proyectos\VisualBasic\EcuacionCuadraticaResolver\EcuacionCuadratica\obj\Debug\EcuacionCuadratica.pdb
