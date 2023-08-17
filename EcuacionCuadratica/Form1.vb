@@ -1,6 +1,14 @@
 ﻿Public Class FRM1CUADRATICA
-    Dim a, b, c, det As Integer
-    Dim raizX1, raizX2 As Single
+    Dim a, b, c, det As Double
+    Dim raizX1, raizX2 As Double
+
+    Private Sub BTN3_CerrarApp_Click(sender As Object, e As EventArgs) Handles BTN3_CerrarApp.Click
+        If MsgBox("¿Deseas salir del programa?", vbQuestion + vbYesNo, "Información del sistema") = vbYes Then
+            End
+        End If
+
+    End Sub
+
     Dim noRaices As Integer
     Public Sub FRM1CUADRATICA_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'Manipulación de controles para mostrar u ocultar al usuario'
@@ -32,6 +40,7 @@
         TBOX6_RaizX2.Enabled = False
         TBOX6_RaizX2.Visible = False
 
+        BTN1_ResolverEcuacion.Enabled = False
     End Sub
 
     Private Sub BTN2_NuevaEcuacion_Click(sender As Object, e As EventArgs) Handles BTN2_NuevaEcuacion.Click
@@ -42,6 +51,7 @@
         TBOX4_NoRaices.Text = ""
         TBOX5_RaizX1.Text = ""
         TBOX6_RaizX2.Text = ""
+        'MsgBox("")'
 
         LB1_Encabezado.Visible = True
         LB2_CoeficienteA.Visible = True
@@ -68,6 +78,8 @@
 
         TBOX6_RaizX2.Enabled = True
         TBOX6_RaizX2.Visible = True
+
+        BTN1_ResolverEcuacion.Enabled = True
     End Sub
 
     Private Sub BTN1_ResolverEcuacion_Click(sender As Object, e As EventArgs) Handles BTN1_ResolverEcuacion.Click
@@ -79,16 +91,20 @@
         'Calculamos los valores para las determinantes
         det = (b ^ 2) - (4 * a * c)
         If det > 0 Then
-            LB5_NoRaices.Capture = 2
+            'LB5_NoRaices.Capture = 2'
             raizX1 = (-b + Math.Sqrt(det)) / (2 * a)
             raizX2 = (-b - Math.Sqrt(det)) / (2 * a)
+            MsgBox("Estas con las raíces:", vbOK, "Información del sistema")
             TBOX5_RaizX1.Text = Math.Round(raizX1, 4)
             TBOX6_RaizX2.Text = Math.Round(raizX2, 4)
         ElseIf det = 0 Then
             raizX1 = (-b) / 2 * a
-            LB5_NoRaices.Capture = 1
+            'LB5_NoRaices.Capture = 1'
+            MsgBox("La raíz es", vbOK, "Información del sistema")
             TBOX5_RaizX1.Text = raizX1
-
+        Else
+            'LB5_NoRaices.Capture = 0'
+            MsgBox("Estas no son raíces", vbOK, "Información del sistema")
         End If
 
     End Sub
